@@ -14,6 +14,23 @@ class ACEGVAR(medical_treatment,actions) {
         treatmentTime = 5;
     };
 
+    class Morphine;
+    class EatApap: Morphine {
+        allowedSelections[] = {"head"};
+        allowSelfTreatment = 1;
+        displayName = CSTRING(Eat_Apap);
+        displayNameProgress = CSTRING(Eating_Apap);
+        items[] = {"AFMED_apap"};
+        condition = "(_this select 1) isEqualTo player";
+        litter[] = { {"All", "", {"AFMED_MedicalLitter_apap"}} };
+    };
+    class AdministerApap: EatApap {
+        allowSelfTreatment = 0;
+        displayName = CSTRING(Administer_Apap);
+        displayNameProgress = CSTRING(Administering_Apap);
+        condition = "!((_this select 1) getVariable ['ACE_isUnconscious', false])";
+    };
+
     class BloodIV: BasicBandage {
         treatmentTime = 5;
     };

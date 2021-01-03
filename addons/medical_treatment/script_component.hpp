@@ -1,5 +1,5 @@
 #define COMPONENT medical_treatment
-#include "\z\afmed\addons\main\script_mod.hpp"
+#include "\z\dpsomed\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -11,7 +11,7 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_MEDICAL_TREATMENT
 #endif
 
-#include "\z\afmed\addons\main\script_macros.hpp"
+#include "\z\dpsomed\addons\main\script_macros.hpp"
 
 // The best choice for given wound
 #define SUPER_EFF_BASE \

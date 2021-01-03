@@ -1,1 +1,1 @@
-#include "\z\afmed\addons\medical_treatment\script_component.hpp"
+#include "\z\dpsomed\addons\medical_treatment\script_component.hpp"

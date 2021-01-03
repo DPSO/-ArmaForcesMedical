@@ -50,7 +50,7 @@
                 " None",
                 "",
                 " Example:",
-                " [[bob, ted], false] call afmed_main_fnc_example",
+                " [[bob, ted], false] call dpsomed_main_fnc_example",
                 "",
                 " Public: No"
             ]

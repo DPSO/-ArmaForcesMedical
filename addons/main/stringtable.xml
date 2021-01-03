@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="AFMED">
+<Project name="DPSOMED">
     <Package name="Main">
-        <Key ID="STR_AFMED_Main_Attributes">
+        <Key ID="STR_DPSOMED_Main_Attributes">
             <English>Medical Attributes</English>
             <Polish>Atrybuty Medical</Polish>
         </Key>
-        <Key ID="STR_AFMED_Main_Category">
+        <Key ID="STR_DPSOMED_Main_Category">
             <English>Medical</English>
         </Key>
-        <Key ID="STR_AFMED_Main_Toolbar">
+        <Key ID="STR_DPSOMED_Main_Toolbar">
             <English>Medical</English>
         </Key>
-        <Key ID="STR_AFMED_Main_SettingsCategory">
-            <English>ArmaForces - Medical</English>
+        <Key ID="STR_DPSOMED_Main_SettingsCategory">
+            <English>DPSO - Medical</English>
         </Key>
     </Package>
 </Project>

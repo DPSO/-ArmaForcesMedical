@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "afmed_main"
+            "dpsomed_main"
         };
         author = "ArmaForces";
         VERSION_CONFIG;
